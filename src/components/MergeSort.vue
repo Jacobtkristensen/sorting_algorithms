@@ -43,7 +43,7 @@
   
   const generateArray = () => {
     array.value = []
-    for (let i = 0; i < 51; i++) {
+    for (let i = 0; i < 50; i++) {
       array.value.push(Math.floor(Math.random() * 300) + 50)
     }
     highlightedBars.value = []
