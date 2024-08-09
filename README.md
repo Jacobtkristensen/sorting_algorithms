@@ -22,10 +22,14 @@ Efter grupperingen lægges grupperne sammen i rækkefølge.
 Denne proces gentages for det næste ciffer(tiere, hundreder osv.) indtil alle cifre er sorteret. Det ser således ud:
 
 ### Merge sort
-er en “divide-and-conquer” algoritme. Den deler listen op i mindre dele, sorterer hver del for sig, og samler dem derefter igen i den rigtige rækkefølge.
-Den deler listen op indtil hvert tal står alene og i princippet er “sorteret”, og samler den på
-Først deles listen gentagne gange i to halvdele, indtil vi har lister, der kun består af ét element. Et enkelt element betragtes som sorteret, da der ikke er noget at sammenligne det med. Når vi har delt listen ned til individuelle elementer, begynder vi at samle og sortere disse små lister. Vi tager to nærliggende elementer og sammenligner dem, og samler dem i en ny sorteret liste. Denne proces gentages, indtil alle elementer er samlet i en sorteret rækkefølge.
-
+Merge sort er en “divide-and-conquer” algoritme. Den deler listen op i mindre dele, sorterer
+hver del for sig, og samler dem derefter igen i den rigtige rækkefølge.
+Først deles listen gentagne gange i to halvdele, indtil vi har lister, der kun består af ét
+element. Et enkelt element betragtes som sorteret, da der ikke er noget at sammenligne det
+med. Når vi har delt listen ned til individuelle elementer, begynder vi at samle og sortere
+disse små lister. Vi tager to nærliggende elementer og sammenligner dem, og samler dem i
+en ny sorteret liste. Denne proces gentages, indtil alle elementer er samlet i en sorteret
+rækkefølge
 
 ### Sådan kører du det lokalt:
 
